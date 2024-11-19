@@ -1,0 +1,131 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.all{
+  width: 22rem;
+  height:20rem;
+  margin:  10px;
+}
+.me-2{
+  background-color: transparent;
+  outline-style:none  ;
+}
+.bx {
+  color:orange
+}
+.bx-menu{
+  color: orange;
+}
+.scrolled{
+  color:white;
+  text-decoration: none;
+}
+
+.cart{
+  margin-top: 0px;
+}
+
+
+.serviceimg{
+  width: 22rem;
+  height:20rem;
+  margin:  10px;
+}
+.banner{
+  height: 35rem;
+}
+
+.bx-x{
+  color: black;
+}
+
+
+.newstab{
+  padding-top: 5rem;
+}
+
+.newsitalic::before{
+  content:"";
+}
+
+.breadcrumb{
+  text-decoration: none;
+  color:black;
+}
+
+.img{
+  margin: 20px;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media (min-width : 992px) {
+  .offcanvas {
+    visibility      : visible;
+    position        : relative;
+    background      : none;
+    border          : none;
+    justify-content : end;
+    
+  }
+}
+
+@media (max-width : 992px) {
+  .offcanvas {
+    width : 250px !important;
+    background:rgba(16, 45, 53, 0.836) ;
+  }
+
+ 
+
+}
